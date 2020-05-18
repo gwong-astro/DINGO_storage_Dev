@@ -5,6 +5,7 @@ A major challenge for any deep astronomical survey is the storage of large files
 
 ![Schematic](DINGO_flowchart_Scripts2.png)
 
+The blue areas are the pipelines from YANDAsoft/DINGO.  The orange area indicates the proposed system which is located in a different location such as cloud service.  The main path is the gridded visibilities are pulled from YANDAsoft and stored at an external location.  The metadata and supplementary information (such as parset file) is extracted and stored in a metadatabase.  Through the metadatabase you can create a short list of files which you want to use for analysis or further processing.  The analysis and averaging of the gridded visiblities can be achieved through TaQL.
 
 ## Files
 
